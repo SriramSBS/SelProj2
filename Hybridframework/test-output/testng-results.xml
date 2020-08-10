@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2239" started-at="2020-08-09T09:53:43Z" finished-at="2020-08-09T09:53:45Z">
+    <groups>
+      <group name="QA">
+        <method signature="Scenario_Cart.AddtoCart(java.util.Map)[pri:0, instance:testScripts.Scenario_Cart@1fe20588]" name="AddtoCart" class="testScripts.Scenario_Cart"/>
+        <method signature="Scenario_Login.ValidLogin(java.util.Map)[pri:0, instance:testScripts.Scenario_Login@6ce139a4]" name="ValidLogin" class="testScripts.Scenario_Login"/>
+        <method signature="Scenario_Search.invalidsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="invalidsearch" class="testScripts.Scenario_Search"/>
+      </group> <!-- QA -->
+      <group name="DEV">
+        <method signature="Scenario_Search.invalidsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="invalidsearch" class="testScripts.Scenario_Search"/>
+      </group> <!-- DEV -->
+      <group name="STAGE">
+        <method signature="Scenario_Login.ValidLogin(java.util.Map)[pri:0, instance:testScripts.Scenario_Login@6ce139a4]" name="ValidLogin" class="testScripts.Scenario_Login"/>
+        <method signature="Scenario_Search.validsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="validsearch" class="testScripts.Scenario_Search"/>
+      </group> <!-- STAGE -->
+      <group name="UAT">
+        <method signature="Scenario_Login.ValidLogin(java.util.Map)[pri:0, instance:testScripts.Scenario_Login@6ce139a4]" name="ValidLogin" class="testScripts.Scenario_Login"/>
+        <method signature="Scenario_Search.invalidsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="invalidsearch" class="testScripts.Scenario_Search"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test name="Default test" duration-ms="2239" started-at="2020-08-09T09:53:43Z" finished-at="2020-08-09T09:53:45Z">
+      <class name="testScripts.Scenario_Cart">
+        <test-method status="PASS" signature="initReports()[pri:0, instance:testScripts.Scenario_Cart@1fe20588]" name="initReports" is-config="true" duration-ms="368" started-at="2020-08-09T15:23:42Z" finished-at="2020-08-09T15:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method status="FAIL" signature="launchApp(java.lang.String)[pri:0, instance:testScripts.Scenario_Cart@1fe20588]" name="launchApp" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method launchApp but has not been marked @Optional or defined
+in C:\Users\SRIRAM BS\AppData\Local\Temp\testng-eclipse-2013175701\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method launchApp but has not been marked @Optional or defined
+in C:\Users\SRIRAM BS\AppData\Local\Temp\testng-eclipse-2013175701\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="AddtoCart(java.util.Map)[pri:0, instance:testScripts.Scenario_Cart@1fe20588]" name="AddtoCart" duration-ms="4" started-at="2020-08-09T15:23:45Z" data-provider="commondp" finished-at="2020-08-09T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=Addbook, TC_ID=GB_12, Execute=Y, bookname=Flood and fire}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScripts.Scenario_Cart@1fe20588]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Scenario_Cart -->
+      <class name="testScripts.Scenario_Login">
+        <test-method status="SKIP" signature="launchApp(java.lang.String)[pri:0, instance:testScripts.Scenario_Login@6ce139a4]" name="launchApp" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="ValidLogin(java.util.Map)[pri:0, instance:testScripts.Scenario_Login@6ce139a4]" name="ValidLogin" duration-ms="4" started-at="2020-08-09T15:23:45Z" data-provider="commondp" finished-at="2020-08-09T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=ValidLogin, Uname=qtpworld2008@gmail.com, TC_ID=GB_07, Execute=Y, Exp_msg=Hi qtpworld2008 , Pwd=learn123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScripts.Scenario_Login@6ce139a4]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Scenario_Login -->
+      <class name="testScripts.Scenario_Search">
+        <test-method status="SKIP" signature="launchApp(java.lang.String)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="launchApp" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="invalidsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="invalidsearch" duration-ms="2" started-at="2020-08-09T15:23:45Z" data-provider="commondp" finished-at="2020-08-09T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=Sorry..'kdsf' does not match any product on Rediff Books., Script=invalidsearch, searchoption=kdsf, TC_ID=GB_08, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidsearch -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="launchApp(java.lang.String)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="launchApp" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="validsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="validsearch" duration-ms="8" started-at="2020-08-09T15:23:45Z" data-provider="commondp" finished-at="2020-08-09T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=234.0, Script=validsearch, searchoption=ways, TC_ID=GB_09, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validsearch -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="launchApp(java.lang.String)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="launchApp" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="validsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="validsearch" duration-ms="2" started-at="2020-08-09T15:23:45Z" data-provider="commondp" finished-at="2020-08-09T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=342.0, Script=validsearch, searchoption=chandler, TC_ID=GB_10, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validsearch -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="launchApp(java.lang.String)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="launchApp" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="SKIP" signature="validsearch(java.util.Map)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="validsearch" duration-ms="2" started-at="2020-08-09T15:23:45Z" data-provider="commondp" finished-at="2020-08-09T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=35.0, Script=validsearch, searchoption=jaico, TC_ID=GB_11, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validsearch -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScripts.Scenario_Search@6973bf95]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T15:23:45Z" finished-at="2020-08-09T15:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.Scenario_Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

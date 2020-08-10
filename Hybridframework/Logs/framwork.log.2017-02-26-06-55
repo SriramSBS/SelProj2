@@ -1,0 +1,3 @@
+[INFO] 2017-02-26 06:55:09,322 testScripts.Scenario_Login InvalidLogin - Starting test:GB_02 and order: 2.0
+[INFO] 2017-02-26 06:55:45,789 testScripts.Scenario_Login InvalidLogin - Starting test:GB_01 and order: 1.0
+[INFO] 2017-02-26 06:55:57,051 testScripts.Scenario_Login InvalidLogin - Starting test:GB_02 and order: 1.0

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52189" started-at="2017-02-26T17:01:57Z" finished-at="2017-02-26T17:02:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52189" started-at="2017-02-26T17:01:57Z" finished-at="2017-02-26T17:02:49Z">
+      <class name="testScripts.Scenario_Login">
+        <test-method status="PASS" signature="launchApp(java.lang.String)" name="launchApp" is-config="true" duration-ms="6001" started-at="2017-02-26T17:01:57Z" finished-at="2017-02-26T17:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="ValidLogin(java.util.Map)" name="ValidLogin" duration-ms="2312" started-at="2017-02-26T17:02:03Z" finished-at="2017-02-26T17:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=ValidLogin, Uname=qtpworld2008@gmail.com, TC_ID=GB_07, Execute=Y, Exp_msg=Hi qtpworld2008 , Pwd=learn123}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2064" started-at="2017-02-26T17:02:06Z" finished-at="2017-02-26T17:02:08Z">
+        </test-method>
+      </class>
+      <class name="testScripts.Scenario_Search">
+        <test-method status="PASS" signature="initReports()" name="initReports" is-config="true" duration-ms="250" started-at="2017-02-26T17:01:56Z" finished-at="2017-02-26T17:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="launchApp(java.lang.String)" name="launchApp" is-config="true" duration-ms="6022" started-at="2017-02-26T17:02:08Z" finished-at="2017-02-26T17:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="invalidsearch(java.util.Map)" name="invalidsearch" duration-ms="2750" started-at="2017-02-26T17:02:14Z" finished-at="2017-02-26T17:02:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=Sorry..'kdsf' does not match any product on Rediff Books., Script=invalidsearch, searchoption=kdsf, TC_ID=GB_08, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="763" started-at="2017-02-26T17:02:17Z" finished-at="2017-02-26T17:02:17Z">
+        </test-method>
+        <test-method status="PASS" signature="launchApp(java.lang.String)" name="launchApp" is-config="true" duration-ms="5704" started-at="2017-02-26T17:02:17Z" finished-at="2017-02-26T17:02:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="validsearch(java.util.Map)" name="validsearch" duration-ms="4722" started-at="2017-02-26T17:02:23Z" finished-at="2017-02-26T17:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=234.0, Script=validsearch, searchoption=ways, TC_ID=GB_09, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="823" started-at="2017-02-26T17:02:28Z" finished-at="2017-02-26T17:02:29Z">
+        </test-method>
+        <test-method status="PASS" signature="launchApp(java.lang.String)" name="launchApp" is-config="true" duration-ms="5807" started-at="2017-02-26T17:02:29Z" finished-at="2017-02-26T17:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="validsearch(java.util.Map)" name="validsearch" duration-ms="4156" started-at="2017-02-26T17:02:34Z" finished-at="2017-02-26T17:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=342.0, Script=validsearch, searchoption=chandler, TC_ID=GB_10, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="757" started-at="2017-02-26T17:02:39Z" finished-at="2017-02-26T17:02:39Z">
+        </test-method>
+        <test-method status="PASS" signature="launchApp(java.lang.String)" name="launchApp" is-config="true" duration-ms="5733" started-at="2017-02-26T17:02:39Z" finished-at="2017-02-26T17:02:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="validsearch(java.util.Map)" name="validsearch" duration-ms="2989" started-at="2017-02-26T17:02:45Z" finished-at="2017-02-26T17:02:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, exp_result=35.0, Script=validsearch, searchoption=jaico, TC_ID=GB_11, Execute=Y}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="775" started-at="2017-02-26T17:02:48Z" finished-at="2017-02-26T17:02:49Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

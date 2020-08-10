@@ -1,0 +1,3 @@
+[INFO] 2017-02-25 13:42:00,198 testScripts.Scenario_Login ValidLogin - Starting test:GB_07 and order: 1.0
+[INFO] 2017-02-25 13:42:01,098 testScripts.Scenario_Login ValidLogin - Clicked on Sigin Link
+[INFO] 2017-02-25 13:42:02,923 testScripts.Scenario_Login ValidLogin - Entered User name and Password

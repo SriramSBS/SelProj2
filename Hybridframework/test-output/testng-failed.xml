@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="testScripts.Scenario_Cart">
+        <methods>
+          <include name="initReports"/>
+          <include name="AddtoCart"/>
+        </methods>
+      </class> <!-- testScripts.Scenario_Cart -->
+      <class name="testScripts.Scenario_Login">
+        <methods>
+          <include name="ValidLogin"/>
+        </methods>
+      </class> <!-- testScripts.Scenario_Login -->
+      <class name="testScripts.Scenario_Search">
+        <methods>
+          <include name="invalidsearch"/>
+          <include name="validsearch"/>
+        </methods>
+      </class> <!-- testScripts.Scenario_Search -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

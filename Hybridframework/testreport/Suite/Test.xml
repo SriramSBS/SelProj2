@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DELL-PC" name="testScripts.Scenario_Login" tests="5" failures="0" timestamp="26 Feb 2017 11:32:49 GMT" time="52.189" errors="0">
+  <testcase name="ValidLogin" time="2.312" classname="testScripts.Scenario_Login"/>
+  <testcase name="invalidsearch" time="2.75" classname="testScripts.Scenario_Search"/>
+  <testcase name="validsearch" time="4.722" classname="testScripts.Scenario_Search"/>
+  <testcase name="validsearch" time="4.156" classname="testScripts.Scenario_Search"/>
+  <testcase name="validsearch" time="2.989" classname="testScripts.Scenario_Search"/>
+</testsuite>

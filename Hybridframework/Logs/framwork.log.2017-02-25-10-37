@@ -1,0 +1,4 @@
+[INFO] 2017-02-25 10:37:32,653 testScripts.Scenario_Login ValidLogin - Starting test:GB_07 and order: 1.0
+[INFO] 2017-02-25 10:37:37,266 testScripts.Scenario_Login ValidLogin - Clicked on Sigin Link
+[INFO] 2017-02-25 10:37:39,315 testScripts.Scenario_Login ValidLogin - Entered User name and Password
+[ERROR] 2017-02-25 10:37:39,361 testScripts.Scenario_Login ValidLogin - Failed as user unable to login
